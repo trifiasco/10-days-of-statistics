@@ -1,0 +1,18 @@
+### Mean = SUM(x1,x2,...xn)/n
+
+### Median = midpoint value of a data set.
+	1.sort the list.
+	2. For an odd sample size, this is the middle element of the sorted sample; for an even sample size, this is the average of the  middle elements of the sorted sample
+
+### Mode = The element(s) that occur most frequently in a data set.
+
+### Precision = the number of significant digit.
+
+### Scale  = the number of significant digit to the right of the decimal point
+
+### Weighted Mean =
+	given x[] = x1, x2, ... xn and
+	      w[] = w1, w2, ... wn
+
+	weighted mean = sum(x1*w1 + x2*w2 + ... + xn*wn)/ sum(w1,w2.., wn)
+
