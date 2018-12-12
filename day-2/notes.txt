@@ -1,0 +1,32 @@
+# Probability 
+
+### Basics
+```
+P(a) = number of favorable outcome / total number of outcomes
+P(a') = 1 - p(a)
+```
+
+### Compound events
+A compound event is a combination of 2 or more simple events.
+
+If A and B are simple events, then (A Union B) denote the occurance of either A or B.
+Similarly, A intersection B, denotes the occurance of A and B together.
+
+### Mutually Exclusive events ( Disjoint events)
+A and B are said to be mutually exclusive or disjoint if they have no events in common. (i.e., A intersection B = null and P(A intersection B) = 0)
+
+The probability of any of 2 or more events occurring is the union of events. Because disjoint probabilities have no common events.
+
+### Collectively Exhaustive events
+A and B are said to be mutually exhaustive if their union covers all events in the sample spacce.(i.e., A union B = S and P(A union B) = 1)
+
+```
+P(A or B) = P(A) + P(B) [ let A and B are disjoints]
+```
+
+### Independent Events
+If the outcome of the first event (A) has no impact on the second event (B), then they are considered to be independent (e.g., tossing a fair coin). This brings us to the next fundamental rule of probability: the multiplication rule. It states that if two events,  and , are independent, then the probability of both events is the product of the probabilities for each event.
+
+```
+P(A and B) = P(A) * P(B)
+```
